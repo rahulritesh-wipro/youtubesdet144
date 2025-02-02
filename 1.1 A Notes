@@ -1,0 +1,533 @@
+DAY1 - Introduction on Automation & Selenium , Environment Setup for Java & Eclipse
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Java Programming
+DAY2 - Variables and data Types in Java 
+DAY3 - Java Operators
+DAY4 - Java Conditional Statements
+DAY5 - Java Loops
+DAY6 - Java Arrays Part-1
+DAY7 – Java Arrays Part-2
+DAY8 – Working with Strings in Java Part 1
+DAY9 - Working with Strings in Java Part 2
+DAY10 – Java OOPs concepts, class objects, methods
+DAY11 – Java methods and constructors
+DAY12 – Polymorphism, Method overloading and constructor overloading
+DAY13 – Encapsulation, getter, setter static keyword
+DAY14 – Inheritance and Types of Inheritance
+DAY15 – Method overriding, super and final keyword
+DAY16 – Data Abstraction – Interface and Abstract class
+DAY17 – Data Conversion, Wrapper classes & Java Packages
+DAY18 – Type-casting concept , upcasting and downcasting
+DAY19 – Exception Handling in java
+DAY20 – Java Collections
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Selenium WebDriver
+
+DAY21 -  Introduction to WebDriver & Setting up WebDriver Environment
+DAY22 - Selenium Locators - ID, Name, LinkText, Partial LinkText, TagName
+DAY23 - Selenium Locators - CSS Selector
+DAY24 - Selenium Locators – Xpath
+DAY25 - Selenium Locators - XPath Axes
+DAY26 -  WebDriver Methods - Get methods, Conditional methods & Browser methods
+DAY27 - WebDriver Methods - Different types of Waits
+DAY28 -  WebDriver Methods - Browser Methods and Navigation methods
+DAY29- Handle Checkboxes & Radio Buttons
+DAY30 - Handle Different Types of Alerts & Frames
+DAY31- Handle Different types of drop downs
+DAY32 - Handle Static Web Table
+DAY33 - Handle Dynamic & Pagination Web Table
+DAY34 - Handle Date Pickers
+DAY35 - Handle Mouse Events
+DAY36 - Handle Keyboard Events, Tabs & Windows
+DAY37 - Handle File Upload,Scrolling Page, JavascriptExecutor
+DAY38 - Capture screenshots, HandleSSL,Headless browser, Blocking Ads,ChromeExtensions
+DAY39 - Handle Broken Links, Handle SVG Elements & Shadow DOM Elements
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Apache POI – Data Driven testing using MS excel
+DAY40 - Reading Excel & Writing Data into Excel
+DAY41 - Data Driven Testing using Microsoft Excel
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+TestNG Framework for Selenium
+Day42 - Introduction to TestNG
+Day43 - TestNG Annotations & Types of Assertions
+Day44 -  Dependency Methods & Grouping
+Day45 - Data Providers and Parallel Testing
+Day46 -  TestNG Listeners & Extent Reports
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Page Object Model
+Day47 - Page Object Model Pattern - Page Factory,
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Hybrid Driven Framework Development with Project (Ecommerce
+Day48 - Automation Framework -Session1
+Day49 - Automation Framework -Session2
+Day50 - Automation Framework -Session3
+Day51 - Automation Framework -Session4
+Day52 - Automation Framework -Session5
+Day53 - Automation Framework -Session6 (Run Tests on Selenium Grid)
+Day54 - Automation Framework -Session7( Docker Integration with Selenium Grid)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Maven, GIT, GitHub & Jenkins
+Day55 - Continuous Integration Part -1
+Day56 -  Continuous Integration Part -2 --- git project import
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Cucumber BDD Framework
+Day57 - Cucumber and BDD Concepts
+Day58 -  Cucumber Framework -Part1
+Day59 - Cucumber Framework - Part2 – project import
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Bonus Topics
+Day60 - Git Options in Eclipse & IntelliJ IDE
+Day61 - How to use ChatGPT in Software testing and automation
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+SelectorsHub
+Day62 – Interview Preparation
+Day63 – 
+Docker Introduction
+Docker Installation
+Docker Terminology
+Docker Commands
+How To Run Selenium Tests on Docker Containers
+Selenium Grid Setup with Docker
+How to Invoke Docker Grid using bat files
+Docker with Selenium Grid Integration with Jenkins
+
+
+
+
+
+
+
+Module-1: Overview on Automation & Selenium
+
+•	Introduction to Automation
+•	Challenges in Manual Testing
+•	Overcoming Challenges with Automation
+•	Importance of Programming in Automation
+•	Introduction to Selenium
+•	Selenium Components
+•	Advantages and Disadvantages of Selenium WebDriver
+
+Module-2: Java Programming for Selenium
+
+•	Java and Eclipse Environment Setup
+o	Setting up Java Development Kit (JDK)
+o	Installing Eclipse IDE
+o	Configuring Java and Eclipse Environment
+•	How to Write Basic Java Program?
+o	Creating a Java Class
+o	Main Method in Java
+o	Writing the First Java Program
+o	Compiling and Running Java Programs
+•	Understanding Console Output
+o	Using System.out.println() for Output
+o	Printing Variables and Text to Console
+•	Java Variables and Data Types
+o	Declaring Variables in Java
+o	Primitive Data Types (int, float, double, char, boolean)
+o	Variable Naming Conventions
+•	Java Operators
+o	Arithmetic Operators
+o	Relational Operators
+o	Logical Operators
+o	Assignment Operators
+o	Increment and Decrement Operators
+o	Ternary Operators
+•	Conditional Statements
+o	If Statement
+o	If-Else Statement
+o	Switch-Case Statement
+•	Loops
+o	While Loop
+o	Do-While Loop
+o	For Loop
+•	Jumping Statements
+o	Using break Statement
+o	Using continue Statement
+•	Arrays - Single & Two Dimensional
+o	Declaring and Initializing Arrays
+o	Accessing Array Elements
+o	Single-Dimensional Arrays
+o	Two-Dimensional Arrays
+o	Object Type Array
+o	Coding Exercises on Arrays
+•	String Class
+o	Introduction to the String Class
+o	Creating Strings
+o	String Concatenation
+o	String Length
+o	String Comparison
+•	String Methods
+o	Common String Methods
+o	Coding Exercises on Strings
+Module 3: Java OOPS Concepts
+
+•	Classes and Objects
+o	Introduction to Classes and Objects
+o	Creating Classes
+o	Declaring Object Instances
+o	Class Members: Fields and Methods
+•	Java Methods & Constructors
+o	Defining Methods
+o	Method Signatures
+o	Return Types
+•	Passing Parameters to Methods
+o	Passing Parameters
+o	Call by Value
+o	Call by Reference (Reference Passing)
+•	Java Constructor
+o	Constructor Basics
+o	Parameterized Constructors
+o	Default Constructors
+•	Polymorphism
+o	Introduction to Polymorphism
+•	Overloading Methods
+o	Method Overloading
+o	Overloading with Different Parameter Types
+o	Overloading with Different Number of Parameters
+•	Overloading Constructors
+o	Constructor Overloading
+o	Creating Constructors with Different Parameters
+•	Encapsulation
+o	Encapsulation Overview
+•	Setters and Getters
+o	Purpose of Setters and Getters
+o	Encapsulation with Setters and Getters
+•	this Keyword
+o	Understanding the this Keyword
+o	Using this to Differentiate Instance and Local Variables
+•	Static Variables and Methods
+o	Static Variables
+o	Static Methods
+o	Accessing Static Members
+•	Inheritance
+o	Basics of Inheritance
+o	Extending Classes
+o	Superclass and Subclass
+•	Types of Inheritance
+o	Single Inheritance
+o	Multiple Inheritance
+o	Multilevel Inheritance
+o	Hierarchical Inheritance
+•	Method Overriding
+o	Overriding Methods in Subclasses
+o	Use of @Override Annotation
+•	super Keyword
+o	Using super to Access Superclass Members
+o	Invoking Superclass Methods
+•	final Keyword
+o	Final Variables
+o	Final Methods
+o	Final Classes
+•	Abstract Class
+o	Abstract Class Overview
+o	Abstract Methods
+o	Creating Abstract Classes
+•	Java Interface
+o	Introduction to Interfaces
+o	Implementing Interfaces
+o	Multiple Interface Implementation
+•	Java Packages
+o	Organizing Code with Packages
+o	Creating and Using Packages
+•	Access Modifiers
+o	Public, Private, Protected, Default Access Modifiers
+o	Access Modifier Scope
+•	Wrapper Classes
+o	Primitive Data Types vs Wrapper Classes
+o	Autoboxing and Unboxing
+•	Data Conversion Functions
+o	Converting Data Types
+o	Casting - Up Casting and Down casting
+•	Reading Input from Keyboard
+o	Using Scanner Class for Input
+•	Exception Handling
+o	Introduction to Exception Handling
+o	Try, Catch, Finally Blocks
+o	Types of Exceptions
+•	Java Collections
+o	Overview of Java Collections Framework
+o	Lists, Sets, Maps
+o	Iterators
+o	Collections Methods
+
+Module-4: Selenium WebDriver (Latest Version)
+
+•	Introduction to WebDriver and Architecture
+o	Overview of Selenium WebDriver
+o	Architecture of Selenium WebDriver
+•	Environment Setup & WebDriver Configuration
+o	Setting up WebDriver in Eclipse
+o	Configuring WebDriver for Different Browsers
+•	How to Create Automated Test Case in WebDriver?
+o	Setting Up a Basic Test Case Structure
+o	Writing and Running Simple WebDriver Test Cases
+•	Execute Test Case on Multiple Browsers
+o	Cross-Browser Testing
+o	Running Tests on Different Browsers
+•	Understanding HTML Tags and Attributes
+o	HTML Basics for Selenium Testers
+o	Locating Elements Using HTML Tags and Attributes
+•	Basic Locators
+o	Name Locator
+o	ID Locator
+o	LinkText Locator
+o	PartialLinkText Locator
+•	Advanced Locators
+o	CSS Locators
+o	XPath Locators
+o	XPath Axes
+•	Relative Locators
+o	.above, .below, .toLeftOf, .toRightOf, .near
+•	How to Use SelectorsHub & Features of Selectors Hub
+o	Overview of SelectorsHub
+o	Features and Benefits
+•	WebDriver Methods
+o	Opening Page URL
+o	Verifying Page Title
+o	Getting Page Source
+o	Getting Page URL
+o	Conditional Methods
+	Visibility of WebElements
+	Enable/Disable Status of Web Elements
+•	Waits
+o	Implicit Waits
+o	Explicit Waits
+o	Fluent Waits
+o	Page Load Time
+•	Navigation Methods
+o	Navigating Back & Forward
+o	Refreshing Page
+•	Browser Commands
+o	close() and quit()
+o	getWindowHandle() and getWindowHandles()
+•	Working with Web Elements
+o	Handling Input Boxes
+o	Handling Checkboxes & Radio Buttons
+o	Handling Links
+•	Handling Alerts/Popups
+o	Handling Alert Boxes
+o	Handling Confirmation Boxes
+o	Handling Prompt Boxes
+•	Handling Iframes & Inner Iframes
+o	Switching to Iframes
+o	Working with Nested Iframes
+•	Handling Drop Downs
+o	Select type Drop down
+o	Bootstrap Drop Downs
+o	Multi Select Drop Down
+o	Auto Suggest Drop Down
+•	Working with Browser Windows
+o	Switching Between Browser Windows
+o	Handling Tabs and Windows
+•	Handling Static & Dynamic Web Tables
+o	Strategies for Handling Tables
+o	Handling Static Tables
+o	Handling Dynamic Tables
+o	Pagination Tables
+•	Handling Date Pickers
+o	Strategies for Handling Date Pickers
+•	Handling Mouse Actions
+o	Using Actions Class
+o	Right Click, Double Click, Mouse Over
+o	Drag and Drop Actions
+•	Handling Keyboard Actions and Shortcuts
+o	Using Actions Class for Keyboard Actions
+•	Working with JavascriptExecutor
+o	Executing JavaScript Code in Selenium
+•	Scrolling Web Page
+o	Scrolling Up and Down the Page
+•	Zoom In & Zoom Out, Maximize, Minimize Web Page
+o	Managing Browser Window Size
+•	Opening Links in New Tab
+o	Handling New Tabs
+•	Working with Tabs and Windows
+o	Switching Between Tabs and Windows
+•	Capturing Screenshots
+o	Taking Screenshots in Selenium
+•	Working with Cookies
+o	Managing Cookies in Selenium
+•	Headless Browser Testing
+o	Overview of Headless Testing
+o	Advantages and Disadvantages
+•	SSL Certificate Handling
+o	Handling SSL Certificates
+•	Browser Settings with ChromeOptions
+o	Customizing Chrome Browser Settings
+•	Enable Extensions on Browser at Runtime
+o	Managing Browser Extensions
+•	Blocking Ads on WebPage at Runtime
+o	Blocking Ads Using WebDriver
+•	Run Tests in Incognito Mode
+o	Running Tests in Incognito/Private Mode
+•	How to Handle Upload Files (Single and Multiple)
+o	Uploading Files in Selenium
+•	Handling Broken Links
+o	What is Broken link?
+o	How to find Broken links in web page
+•	Handling shadowDOM, SVG Elements
+o	Strategies for Handling shadowDOM and SVG Elements
+•	Selenium WebDriver Exceptions
+•	Working with Excel Files Using Apache POI API
+o	Reading and Writing Excel Files
+•	Data-Driven Testing
+o	Strategies for Data-Driven Testing
+o	Implementing Data-Driven Tests in Selenium
+•	Reading Properties File
+
+Module-5: TestNG
+
+•	Introduction to TestNG and Advantages
+o	Overview of TestNG
+o	Advantages of TestNG over JUnit
+o	TestNG Features
+•	Configuring TestNG in Project
+o	Setting up TestNG in Eclipse or IntelliJ
+o	Configuring TestNG Dependencies in the Project
+•	Writing TestNG Test Cases
+o	Basics of Writing TestNG Test Cases
+o	Annotations in TestNG
+•	Prioritizing Tests
+o	Setting Test Case Priority
+o	Running Tests in Priority Order
+•	Understanding Testng.xml
+o	Structure of TestNG XML File
+o	Configuring Test Suites and Test Cases
+•	TestNG Report
+o	TestNG HTML Reports
+o	Viewing and Analyzing TestNG Reports
+•	TestNG Annotations
+o	@BeforeSuite, @AfterSuite
+o	@BeforeTest, @AfterTest
+o	@BeforeClass, @AfterClass
+o	@BeforeMethod, @AfterMethod
+o	@Test Annotation
+•	Types of Assertions (Hard and Soft Assertions)
+o	Using Hard Assertions in TestNG
+o	Using Soft Assertions in TestNG
+•	dependsOnMethods
+o	Defining Dependencies Between Test Methods
+o	Ensuring Test Methods Run in a Specific Order
+•	Skipping and Ignoring Tests
+o	Skipping Tests in TestNG
+o	Ignoring Tests in TestNG
+•	Grouping Tests
+o	Grouping Tests in TestNG
+o	Running Tests by Groups
+•	Parameterizing Tests (XML File, DataProviders)
+o	Parameterizing Tests Using TestNG XML File
+o	Parameterizing Tests Using DataProviders
+•	@DataProvider
+o	Understanding @DataProvider Annotation
+o	Providing Test Data to Test Methods
+•	Invocation Count
+o	Repeating Test Execution with Invocation Count
+•	Parallel Testing
+o	Running Tests in Parallel
+o	Configuring Parallel Execution in TestNG
+•	TestNG Listeners
+o	Overview of TestNG Listeners
+o	Implementing Listeners in TestNG
+o	Types of TestNG Listeners (e.g., ITestListener, IAnnotationTransformer)
+
+Module-6: Extent Reports, Log4j2 & Page Object Model Pattern
+
+•	Generating Extent Reports
+•	Log4j2 for Logging
+•	Page Object Model (POM) Pattern
+•	Creating Page Object Classes without Page Factory
+•	Creating Page Object Classes using Page Factory
+•	@FindBy annotation
+
+Module-7: Selenium Grid
+
+•	Introduction to Selenium Grid
+•	Setting Up Grid Environment (Stand Alone, Hub with Nodes)
+•	Running Selenium Tests on Grid
+Module-8: Docker
+
+•	What is Docker
+•	What is Docker Image
+•	What is Docker Container
+•	How to create account on Docker Hub
+•	Download Images from Docker Hub
+•	Docker UI Application
+•	Selenium Grid Configuration on Docker Hub
+•	Run your test cases on Dockerized Selenium Grid
+•	Setup Infrastructure using Docker Compose yml
+•	Scale up the browsers at the run time
+•	Shut down the Docker Infrastructure
+Module-9: Introduction to Automation Frameworks
+
+•	Introduction to Automation Frameworks
+•	Types of Frameworks
+•	Phases in Designing Framework
+•	Choosing Test Cases for Automation
+Module-10: Hybrid Framework with POM (Page Object Model) – Project
+
+•	Creating Maven Project and update pom.xml with dependencies
+•	Creating Folder Structure
+•	Creating Page Objects and Object Repository
+•	Creating Utility files
+•	Generating Extent Reports
+•	Generating Logs using Log4j2
+•	Setting Up Configuration Files
+•	Creating Automation Test Cases
+•	Creating Data-Driven Test Cases
+•	Creating Database Test Cases
+•	Executing Test Scripts using TestNG XML File
+•	Emailing Test Reports
+•	Executing Test Scripts through Command Line
+•	Executing Test Scripts using Batch File
+•	Executing Test Scripts on Selenium Grid
+•	Executing Script on Docker Container
+
+Module-11: Cucumber BDD Framework
+
+•	Introduction to BDD and Cucumber
+•	Gherkin Language Keywords
+•	Feature Files
+•	Step Definitions
+•	TestRunner Class
+•	Data Tables and Scenario Outline
+•	Tags, Background
+•	Cucumber Hooks
+•	Cucumber Reports
+•	Cucumber Extent Reports
+
+Module-12: CI & CD Concepts( Git, Github & Jenkins)
+
+•	Version Control System Overview
+•	Git and GitHub
+•	Git Commands
+•	Continuous Integration (CI) and Continuous Delivery (CD)
+•	Jenkins Overview
+•	Maven Integration with Jenkins
+•	Running Selenium Tests through Jenkins
+
+
+Who this course is for:
+•	Any Fresh Graduates, Students, Working professionals, Manual testers & who wish to learn this course in order to transform as an Automation Test Engineer can go for this course.
+Show less
+Instructor
+Pavan Kumar
+Tech Educator | Trainer | YouTuber
+As a dedicated Tech Educator and Trainer, I leverage my extensive experience in Software Development and Quality Assurance to empower professionals with the skills needed to thrive in today’s dynamic tech landscape.
+
+Key Highlights:
+- 18+ years of experience in various domains within the IT industry and 15+ years as an Instructor & Corporate Trainer.
+- Designed and delivered 17+ impactful courses on Udemy, reaching over 200,000+ students worldwide.
+- Content creator on YouTube channel "SDET-QA," with over 715K+ subscribers, where many have benefited from learning various tools & technologies related to software testing & automation.
+- Specialized in test automation frameworks and web automation using Selenium, Cypress, and Playwright.
+- Expertise in programming languages including Java, Python, JavaScript, and TypeScript.
+- Proficient in web testing, API testing, mobile app testing, performance testing, and CI/CD practices.
+- Emphasis on JavaScript-based frameworks and the latest test automation tools for efficient, reliable, and scalable solutions.
+
+Beyond my teaching roles, I actively engage with the tech community through my blog and YouTube content, where I share valuable insights, practical tips, and the latest trends in software testing and automation. My mission is to deepen understanding and drive innovation, helping professionals excel in their careers.
+
+Show less
+Requirements
+•	Software Testing Concepts
+•	Understanding of Computers and Web Sites
+•	No prior knowledge of Java, everything will be covered in this course
+
