@@ -531,3 +531,104 @@ Requirements
 •	Understanding of Computers and Web Sites
 •	No prior knowledge of Java, everything will be covered in this course
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Automation Framework
+We organize project files and folders in structured manner.
+
+Objectives--
+--------------
+1. Re-usability
+2. maintainability
+3. Readability
+
+Types of Frameworks
+-----------------------
+1. Built-in Framework  - testNG, junit,cucumber,robot etc
+BDD in java - cucumber
+BDD in python - jbehave, pytest
+BDD serenity
+2. Customized Framework (user-defined) - modular framework, data-driven, keyword-driven, hybrid driven etc
+
+Built-in framework + customized framework = Framework
+
+Every Framework has some common components, 80% is same.
+Hybrid is preferred - 3rd party inegrations
+Automation Plan
+------------------------
+
+Phases / Stages of Automation
+1. Analyse the AUT application under test
+> No. of pages
+> Type of element handles /how & type
+> performance of AUT / synchronization issues
+> common business flows of AUT
+> effort estimation
+> mutilple sites and languages
+> type of tools
+> what we can automate
+> what we cannot automate
+
+2. Choose test cases for automation
+how - some test cases needs to be tested manually, font, style, images, cosmetics
+All manual test cases should be ready before automation
+Test data
+env
+If build is not stable then automation is not possible
+
+Is 100% automation is possible ?
+> all automatable test cases should be automated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
